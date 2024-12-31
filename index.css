@@ -9,7 +9,7 @@ body {
 .snowflake{
     height: 20em;
     animation:2s rotate infinite linear; 
-
+margin: 5em;
 }
 
 p:hover {
@@ -19,4 +19,34 @@ p:hover {
 
 @keyframes rotate{
     100%{ transform:rotate(1turn) }
+}
+
+.tree {
+    height: 15em;
+    position: absolute;
+    margin-top: 60em;
+    margin-left: 50em;
+}
+
+
+.gifts {
+    height: 7em;
+    position: absolute;
+    margin-top: 68em;
+    margin-left: 30em;
+}
+
+.stockin{
+    height: 8em;
+    margin-top: 65em;
+    position: absolute;
+    margin-right: 50em;
+}
+
+
+.sock{
+    height: 8em;
+    margin-top: 65em;
+    position: absolute;
+    margin-right: 30em;
 }
